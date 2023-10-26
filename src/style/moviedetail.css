@@ -148,13 +148,13 @@ body::-webkit-scrollbar {
   }
   .parentcontainer {
     width: 100vw;
-    height: 10rem;
+    height: 13rem;
     background-size: cover;
     background-position: center center;
   }
 
   .containerdata {
-    height: 200px;
+    height: 210px;
     width: 100%;
     background: linear-gradient(to top, #010101ef, #2423235a);
   }

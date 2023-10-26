@@ -25,19 +25,22 @@
 
 /* Media query untuk layar berukuran kecil (misalnya, ponsel) */
 @media (max-width: 768px) {
+  #navbar-detail {
+    height: 33px;
+  }
   .logo_img {
-    width: 110px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     position: relative;
-    bottom: 15px;
-    right: 20px;
+    bottom: 5px;
+    right: 25px;
   }
 
   .search_input {
     width: 140px;
     height: 20px;
     position: relative;
-    bottom: 2px;
+    bottom: 5px;
     font-size: 12px;
   }
 }
