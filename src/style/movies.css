@@ -1,0 +1,81 @@
+.moviesTitle {
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #760002;
+  padding-top: 15px;
+}
+
+.movies_container {
+  height: 40rem;
+  background-color: #282727b5;
+}
+
+.movies {
+  overflow-x: scroll;
+}
+
+.categori {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: start;
+  color: aliceblue;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.movies::-webkit-scrollbar {
+  display: none;
+}
+
+.shadow {
+  background: linear-gradient(to top, #2828284c, #00000081);
+  padding-top: 0px;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  .movies_container {
+    height: 34rem;
+    width: 100%;
+  }
+  .moviesTitle {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 800;
+    color: #760002;
+    padding-top: 15px;
+  }
+
+  .categori {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: start;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-top: 13px;
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .movies_container {
+    height: 40rem;
+  }
+  .moviesTitle {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 800;
+    color: #760002;
+    padding-top: 15px;
+  }
+
+  .categori {
+    font-weight: 500;
+    font-size: 17px;
+    text-align: start;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}

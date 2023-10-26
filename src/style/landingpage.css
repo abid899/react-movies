@@ -1,0 +1,126 @@
+.landingpage {
+  height: 37rem;
+  background-image: url("../asset/images/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px black;
+}
+
+.intro {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 1em;
+  color: brown;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.gradient_bottom {
+  height: 15rem;
+  margin-top: -148px;
+  background: linear-gradient(to top, #010101, #3534341a);
+}
+
+.gradient_top {
+  height: 10px;
+  margin-top: -40px;
+  padding-bottom: 100px;
+  background: linear-gradient(to bottom, #0a0909, #29282800);
+}
+
+.text-item {
+  position: relative;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  .landingpage {
+    height: 23rem;
+    background-image: url("../asset/images/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px black;
+  }
+
+  .gradient_bottom {
+    height: 7rem;
+    position: relative;
+    bottom: 11rem;
+  }
+
+  .gradient_top {
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to bottom, #0a0909, #29282800);
+  }
+
+  .text-item {
+    bottom: 7em;
+  }
+
+  .hero-title {
+    font-size: 1.2em;
+    font-weight: 800;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+  }
+
+  .btn {
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .intro {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .landingpage {
+    height: 50rem;
+    background-image: url("../asset/images/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px black;
+  }
+
+  .text-item {
+    bottom: 5em;
+  }
+
+  .hero-title {
+    font-size: 2.5em;
+    font-weight: 900;
+    line-height: 1em;
+    color: rgb(255, 247, 247);
+  }
+
+  .btn {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .intro {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+  }
+}

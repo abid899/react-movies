@@ -1,0 +1,155 @@
+#trending {
+  height: 40vh;
+  overflow-x: scroll;
+  background: linear-gradient(to top, #020202e6, #000000f6);
+}
+
+#trending::-webkit-scrollbar {
+  display: none;
+}
+.trendingTitle {
+  font-size: 2em;
+  color: maroon;
+  font-weight: 600;
+  font-style: italic;
+  background-color: #010101;
+  padding-top: 3rem;
+  padding-bottom: 30px;
+}
+.card_container {
+  width: auto;
+  padding-top: 0em;
+}
+
+.card2 {
+  margin-left: 20px;
+  width: 7rem;
+}
+.card2 img {
+  height: 180px;
+  width: 7.8rem;
+  border-radius: 3%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card2 img:hover {
+  transform: translateY(-10px);
+}
+
+.movie_title {
+  font-size: 15px;
+  font-weight: 800;
+  background-color: transparent;
+}
+
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  padding-top: 5px;
+  text-align: start;
+}
+.infofilm {
+  margin-top: 5px;
+  width: 120px;
+}
+.releasedate {
+  font-size: 10px;
+  color: rgb(125, 123, 123);
+}
+
+.parent_icon {
+  width: 120px;
+}
+.icon {
+  font-size: 9px;
+  padding-top: 2px;
+  word-spacing: 5px;
+  color: goldenrod;
+}
+
+.vote {
+  font-size: 9px;
+  font-weight: 600;
+  padding-right: 3px;
+  color: goldenrod;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  #trending {
+    height: 11rem;
+    background: linear-gradient(to top, #020202e6, #010101);
+  }
+
+  .trendingTitle {
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #010101;
+    padding-bottom: 10px;
+    padding-top: 3rem;
+  }
+
+  .movie_title {
+    font-size: 11px; /* Menambahkan ukuran font lebih besar pada layar kecil */
+    font-weight: 700;
+    background-color: transparent !important;
+  }
+
+  .card2 {
+    margin-left: 19px;
+    width: 80px;
+  }
+
+  .card2 img {
+    width: 90px;
+    height: 140px;
+    border-radius: 5%;
+  }
+
+  .title {
+    font-size: 10px;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .releasedate {
+    font-size: 8px;
+  }
+
+  .infofilm {
+    margin-top: 5px;
+    width: 90px;
+  }
+
+  .icon {
+    font-size: 8px;
+    padding-top: 2px;
+    word-spacing: 5px;
+  }
+
+  .vote {
+    font-size: 8px;
+    font-weight: 600;
+    padding-right: 3px;
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #trending {
+    height: 16rem;
+    overflow-x: scroll;
+    background: linear-gradient(to top, #020202e6, #000000f6);
+  }
+  .card {
+    margin-left: 5px; /* Mengurangi margin pada layar sedang */
+    width: 13rem;
+  }
+
+  .card_title {
+    font-size: 12px; /* Menambahkan ukuran font sedikit lebih besar pada layar sedang */
+  }
+}

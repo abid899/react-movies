@@ -1,0 +1,316 @@
+.contaner {
+  width: 100%;
+  height: 30rem;
+  background-color: #010101ef;
+  overflow-x: hidden;
+}
+.parentcontainer {
+  width: 100vw;
+  height: 22rem;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.containerdata {
+  height: 360px;
+  width: 100vw;
+  background: linear-gradient(to top, #010101ef, #2423235a);
+  position: absolute;
+}
+
+.data_film {
+  width: 50rem;
+  height: 19rem;
+  position: relative;
+  top: 70px;
+  margin-top: 50px;
+}
+
+.image img {
+  width: 200px;
+  height: 280px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: #24232300 1px 1px;
+}
+
+.info_film {
+  margin-left: 20px;
+  width: 600px;
+}
+
+.movie_title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: #ffff;
+  margin-top: 3px;
+}
+.vote_info {
+  margin-right: 15px;
+}
+.vote_info icon {
+  font-size: 14px;
+  padding-left: 3px;
+  color: gold;
+}
+.vote-average {
+  font-size: 10px;
+  color: aliceblue;
+  margin-left: 3px;
+}
+
+.tahun {
+  font-size: 10px;
+  color: aliceblue;
+}
+.grafik_info {
+  font-size: 10px;
+  padding: 1px, 1px, 1px, 1px;
+  color: aliceblue;
+  border-radius: 2px;
+  height: 17px;
+  margin-left: 25px;
+}
+.tentang_film {
+  width: 500px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  font-weight: 250;
+  color: #f8f8f8f7;
+  margin-top: 15px;
+}
+
+.play_button {
+  margin-top: 20px;
+}
+
+.play_button button {
+  width: 100px;
+  margin-left: 10px;
+  font-size: 12px;
+  white-space: 5px;
+}
+
+.play_button #icon {
+  margin-right: 5px;
+}
+
+.play_button .btn_addlist {
+  background-color: rgba(240, 248, 255, 0.016);
+  color: #ffff;
+}
+
+/* recomended film */
+.detail-movie-title {
+  background-color: #010101ef;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  padding-left: 22px;
+}
+.movielist {
+  width: 100vw;
+  height: 17rem;
+  background-color: #010101ef;
+  overflow-x: scroll;
+}
+
+.movielist::-webkit-scrollbar {
+  display: none;
+}
+.image_card {
+  width: 190px;
+  height: 85px;
+  margin-left: 15px;
+}
+
+#not_found_search {
+  font-size: 2em;
+  font-weight: 800;
+  position: relative;
+  left: 15em;
+  top: 5rem;
+  color: #ffff;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  .contaner {
+    width: 100vw;
+    height: 21rem;
+  }
+  .parentcontainer {
+    width: 100vw;
+    height: 10rem;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .containerdata {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to top, #010101ef, #2423235a);
+  }
+
+  .image {
+    height: 150px;
+  }
+
+  .image img {
+    width: 95px;
+    height: 150px;
+    position: relative;
+    bottom: 2.8rem;
+    border-radius: 5px;
+    box-shadow: #24232300 1px 1px;
+  }
+
+  .info_film {
+    margin-left: 10px;
+    position: relative;
+    bottom: 50px;
+    width: 280px;
+    height: 200px;
+  }
+
+  .movie_title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 3px;
+  }
+
+  .vote_info {
+    margin-right: 15px;
+  }
+  .vote_info icon {
+    font-size: 10px;
+    padding-left: 3px;
+  }
+  .vote-average {
+    font-size: 8px;
+    margin-left: 3px;
+  }
+
+  .tahun {
+    font-size: 8px;
+  }
+
+  .grafik_info {
+    font-size: 8px;
+    height: 17px;
+    margin-left: 25px;
+  }
+
+  .tentang_film {
+    width: 250px;
+    font-size: 7px;
+    font-weight: 350;
+    font-stretch: expanded;
+    margin-top: 10px;
+  }
+
+  .play_button {
+    margin-top: 20px;
+  }
+
+  .play_button button {
+    width: 70px;
+    margin-left: 10px;
+    font-size: 9px;
+    white-space: 5px;
+  }
+
+  .play_button #icon {
+    margin-right: 5px;
+  }
+
+  .play_button .btn_addlist {
+    background-color: rgba(240, 248, 255, 0.016);
+    color: #ffff;
+  }
+
+  .movielist {
+    width: 100vw;
+    height: 13rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .detail-movie-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contaner {
+    width: 100vw;
+    height: 30rem;
+  }
+
+  .containerdata {
+    height: 375px;
+    width: 100vw;
+    background: linear-gradient(to top, #010101ef, #2423235a);
+  }
+
+  .data_film {
+    width: 50rem;
+    height: 10rem;
+    top: 70px;
+    margin-top: 50px;
+  }
+
+  .parentcontainer {
+    width: 100vw;
+    height: 23rem;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .image img {
+    width: 180px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: #24232300 1px 1px;
+  }
+
+  .info_film {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 600px;
+    height: 300px;
+  }
+
+  .movie_title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 3px;
+  }
+
+  .tentang_film {
+    width: 500px;
+    font-size: 9px;
+    font-weight: 350;
+    font-stretch: expanded;
+    color: #f8f8f8f7;
+    margin-top: 20px;
+  }
+
+  .movielist {
+    width: 100%;
+    height: 17rem;
+    overflow-x: scroll;
+  }
+}

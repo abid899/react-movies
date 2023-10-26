@@ -1,0 +1,62 @@
+#navbar-detail {
+  background: linear-gradient(to bottom, #0f0f0ff5, #35343400);
+  width: 100%;
+  height: 40px;
+}
+
+.logo_img {
+  width: 150px;
+  height: 80px;
+  position: relative;
+  bottom: 25px;
+}
+
+.search_input {
+  width: 170px;
+  height: 25px;
+  position: relative;
+  bottom: 2px;
+  color: aliceblue;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 12px;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  .logo_img {
+    width: 110px;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+  }
+
+  .search_input {
+    width: 140px;
+    height: 20px;
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo_img {
+    width: 140px;
+    height: 70px;
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+  }
+
+  .search_input {
+    width: 140px;
+    height: 30px;
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+  }
+}

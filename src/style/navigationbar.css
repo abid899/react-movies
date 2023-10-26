@@ -1,0 +1,78 @@
+#navbars {
+  background: linear-gradient(to bottom, #0f0f0ff5, #35343400);
+}
+.nav_con {
+  background-color: transparent;
+}
+#navbrand {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: large;
+  color: whitesmoke;
+  padding-left: 0.3em;
+}
+
+#nav-link {
+  list-style: none;
+  padding-left: 0.5em;
+  color: azure;
+  font-size: medium;
+}
+
+.logo {
+  width: 130px;
+  height: 50px;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  #navbars {
+    height: 3rem;
+  }
+  .navbars {
+    height: 3rem;
+    border: none;
+  }
+  #navbrand {
+    height: 30px;
+    width: 80px;
+    position: relative;
+    right: 10px;
+    top: -2px;
+  }
+
+  .logo_img {
+    width: 90px;
+    height: 50px;
+    margin-bottom: 3px;
+  }
+
+  #nav-link {
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+    padding-left: 2px;
+    color: azure;
+    font-size: 12px;
+    position: relative;
+    top: 8px;
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #nav-link {
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+    padding-left: 2px;
+    color: azure;
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+  }
+
+  .logo_img {
+    width: 130px;
+    height: 90px;
+    margin-bottom: 3px;
+  }
+}

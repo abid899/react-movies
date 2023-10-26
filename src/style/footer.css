@@ -1,0 +1,130 @@
+.footer {
+  height: 23rem;
+  padding-top: 1rem;
+  background-color: black;
+}
+.kolom {
+  width: 250px;
+}
+
+.kolom p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: rgba(240, 248, 255, 0.644);
+  text-align: start;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+li {
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(240, 248, 255, 0.644);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.kolom_1 {
+  width: 300px;
+  /* margin-left: 11px; */
+}
+
+ul {
+  list-style: none;
+  text-align: start;
+}
+
+.kolom_2,
+.kolom_3,
+.kolom_4 ul {
+  padding-top: 50px;
+}
+
+.selectbox {
+  width: 100px;
+  height: 25px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  color: #ffff;
+  font-size: 10px;
+  border: #ffffff94 1px 1px 1px 1px;
+}
+
+.countryName {
+  padding-top: 23px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(240, 248, 255, 0.644);
+  line-height: 30px;
+}
+
+/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  .footer {
+    height: 20rem;
+  }
+  .kolom {
+    width: 270px;
+    border: #ffff 1px 1px 1px 1px;
+  }
+
+  .kolom p {
+    font-size: 10px;
+    color: rgba(240, 248, 255, 0.644);
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+
+  li {
+    font-size: 8px;
+    line-height: 20px;
+  }
+  .kolom_1 {
+    width: 300px;
+    /* margin-left: 11px; */
+  }
+
+  ul {
+    list-style: none;
+    text-align: start;
+    padding-left: -15px;
+  }
+
+  .kolom_2,
+  .kolom_3,
+  .kolom_4 ul {
+    padding-top: 50px;
+  }
+
+  .selectbox {
+    width: 70px;
+    height: 20px;
+    margin-top: 0.5rem;
+    font-size: 8px;
+  }
+  .selectbox option {
+    width: 70px;
+    height: 20px;
+    margin-top: 0.5rem;
+    font-size: 5px;
+    border-radius: 0px;
+  }
+
+  .countryName {
+    padding-top: 10px;
+    margin-bottom: 35px;
+    font-size: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(240, 248, 255, 0.644);
+  }
+}
+
+/* Media query untuk layar berukuran sedang (misalnya, tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    height: 25rem;
+    padding-top: 1rem;
+    background-color: black;
+  }
+}
