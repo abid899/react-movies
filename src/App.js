@@ -6,7 +6,7 @@ import NoutfoundPage from "./Pages/NoutfoundPage";
 import MoviesDetailPage from "./Pages/MoviesDetailPage";
 function App() {
   return (
-    <Router>
+    <Router basename="/react-movies">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movie/:id" element={<MoviesDetailPage />} />
