@@ -107,7 +107,7 @@ const MovieDetail = () => {
                 id="navbrand-detail"
                 className=" d-flex justify-content-start "
               >
-                <Nav.Link href="/react-movies">
+                <Nav.Link href="/react-movies/#/">
                   <img src={logo} className="logo_img" />
                 </Nav.Link>
               </NavbarBrand>

@@ -11,7 +11,7 @@ const LandingPage = () => {
             <Col className="text-item">
               <div className="hero-title">
                 Judul terpopuler dari Indonesia dan <br />
-                seluruh dunia. Semuanya ada di Netflix
+                seluruh dunia. Semuanya ada di Movies
                 <br /> mulai dari Rp54.000.
               </div>
               <input
@@ -19,7 +19,7 @@ const LandingPage = () => {
                 placeholder="Almaat email"
                 className="email-input"
               />
-              <button className="btn btn-danger">Mulai </button>
+              <button className="btn-landingpage btn-danger">Mulai </button>
             </Col>
           </Row>
         </Container>

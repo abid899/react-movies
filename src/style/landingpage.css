@@ -19,6 +19,9 @@
   font-weight: 900;
   line-height: 1em;
   color: rgb(255, 255, 255);
+  text-shadow: 1px 1px #010101;
+  position: relative;
+  z-index: 1;
 }
 
 .email-input {
@@ -32,21 +35,31 @@
   top: 4.2em;
   font-size: 15px;
   font-weight: 500;
+  z-index: 1;
 }
 
-.btn {
+.email-input::placeholder {
+  color: #fafafa;
+  padding-left: 5px;
+}
+
+.btn-landingpage {
   width: 100px;
-  height: 52px;
+  height: 50px;
+  color: white;
   background-color: rgb(151, 0, 0);
   border-radius: 5px;
   position: relative;
-  top: 3.8em;
+  top: 4em;
   left: 5px;
+  border: none;
+  z-index: 1;
 }
 
 .gradient_bottom {
-  height: 15rem;
-  margin-top: -148px;
+  height: 32rem;
+  position: relative;
+  bottom: 30rem;
   background: linear-gradient(to top, #010101, #3534341a);
 }
 
@@ -73,9 +86,9 @@
   }
 
   .gradient_bottom {
-    height: 7rem;
+    height: 30rem;
     position: relative;
-    top: 1rem;
+    bottom: 30rem;
   }
 
   .gradient_top {
@@ -108,13 +121,18 @@
     position: relative;
     top: 2em;
     left: 3em;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 300;
   }
 
-  .btn {
+  .email-input::placeholder {
+    color: #fafafaf1;
+    padding-left: 5px;
+  }
+
+  .btn-landingpage {
     width: 90px;
-    height: 45px;
+    height: 40px;
     font-size: 15px;
     position: relative;
     top: 5em;
@@ -160,22 +178,33 @@
     top: 2em;
     left: 1em;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
   }
 
-  .btn {
+  .email-input::placeholder {
+    color: #fafafa;
+    padding-left: 5px;
+  }
+
+  .btn-landingpage {
     width: 100px;
     height: 50px;
     font-size: 15px;
     position: relative;
     left: 1.5em;
-    top: 1.7em;
-    font-weight: 800;
+    top: 2em;
+    font-weight: 700;
   }
 
   .intro {
     height: 40rem;
     display: flex;
     justify-content: center;
+  }
+
+  .gradient_bottom {
+    height: 43rem;
+    position: relative;
+    bottom: 37rem;
   }
 }
