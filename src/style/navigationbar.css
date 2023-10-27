@@ -24,8 +24,33 @@
   width: 130px;
   height: 50px;
 }
+/* Media query untuk layar berukuran kecil ( ponsel) */
+@media (max-width: 360px) {
+  #navbrand {
+    height: 30px;
+    width: 40px;
+    position: relative;
+    right: 10px;
+    top: -2px;
+  }
+  #nav-link {
+    font-family: "Courier New", Courier, monospace;
+    color: azure;
+    font-size: 5px;
+    position: relative;
+    top: 8px;
 
-/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
+    width: 50px;
+  }
+
+  .link-home {
+    padding-left: 0px;
+  }
+  .link-trending {
+    margin-right: 15px;
+  }
+}
+/* Media query untuk layar berukuran kecil ( ponsel fullscreen) */
 @media (max-width: 768px) {
   #navbars {
     height: 3rem;

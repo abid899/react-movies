@@ -21,12 +21,20 @@ const Navigationbar = () => {
             </Col>
             <Col variant="6" className="d-flex justify-content-end">
               <Nav.Item>
-                <Nav.Link href="#landingpage" id="nav-link">
+                <Nav.Link
+                  href="#landingpage"
+                  id="nav-link"
+                  className="link-home"
+                >
                   Home
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#trending" id="nav-link">
+                <Nav.Link
+                  href="#trending"
+                  id="nav-link"
+                  className="link-trending"
+                >
                   Trending
                 </Nav.Link>
               </Nav.Item>

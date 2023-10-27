@@ -74,8 +74,43 @@
   position: relative;
 }
 
-/* Media query untuk layar berukuran kecil (misalnya, ponsel) */
-@media (max-width: 768px) {
+/* Media query untuk layar berukuran kecil ( ponsel) */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 1.5em;
+    bottom: 1em;
+  }
+
+  .email-input {
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    top: -1rem;
+    left: 3em;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: rgba(50, 52, 52, 0.491);
+    border: 1.3px solid rgb(196, 196, 196);
+  }
+
+  .email-input::placeholder {
+    color: #fafafaf1;
+    padding-left: 5px;
+  }
+
+  .btn-landingpage {
+    width: 75px;
+    height: 30px;
+    font-size: 10px;
+    position: relative;
+    top: 2em;
+    left: -9em;
+  }
+}
+
+/* Media query untuk layar berukuran kecil ( ponsel full screen) */
+@media (min-width: 361px) and (max-width: 768px) {
   .landingpage {
     height: 35rem;
     background-image: url("../asset/images/background2.jpg");
