@@ -161,9 +161,7 @@ const MovieDetail = () => {
                   </div>
                   <div className="grafik_info  text-light ">4k ultra HD</div>
                 </div>
-                <div className="tentang_film border">
-                  {moviedetail.overview}
-                </div>
+                <div className="tentang_film ">{moviedetail.overview}</div>
                 <div className="play_button ">
                   <button className="btn btn-danger">
                     <FontAwesomeIcon icon={faPlay} id="icon" />
