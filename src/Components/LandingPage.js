@@ -9,9 +9,17 @@ const LandingPage = () => {
         <Container>
           <Row className="d-flex align-items-center intro ">
             <Col className="text-item">
-              <div className="hero-title">Tempat Menonton </div>
-              <div className="hero-title">Film Terbaru dan Termudah </div>
-              <button className="btn btn-success">Get Started</button>
+              <div className="hero-title">
+                Judul terpopuler dari Indonesia dan <br />
+                seluruh dunia. Semuanya ada di Netflix
+                <br /> mulai dari Rp54.000.
+              </div>
+              <input
+                type="text"
+                placeholder="Almaat email"
+                className="email-input"
+              />
+              <button className="btn btn-danger">Mulai </button>
             </Col>
           </Row>
         </Container>

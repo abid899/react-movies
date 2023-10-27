@@ -15,14 +15,33 @@
 }
 
 .hero-title {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 900;
   line-height: 1em;
-  color: brown;
+  color: rgb(255, 255, 255);
+}
+
+.email-input {
+  width: 350px;
+  height: 50px;
+  background-color: rgba(0, 255, 255, 0.219);
+  border: 1.3px solid rgb(11, 203, 11);
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  top: 4.2em;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .btn {
-  margin-top: 10px;
+  width: 100px;
+  height: 52px;
+  background-color: rgb(151, 0, 0);
+  border-radius: 5px;
+  position: relative;
+  top: 3.8em;
+  left: 5px;
 }
 
 .gradient_bottom {
@@ -45,7 +64,7 @@
 /* Media query untuk layar berukuran kecil (misalnya, ponsel) */
 @media (max-width: 768px) {
   .landingpage {
-    height: 23rem;
+    height: 35rem;
     background-image: url("../asset/images/background2.jpg");
     background-size: cover;
     background-position: center;
@@ -56,7 +75,7 @@
   .gradient_bottom {
     height: 7rem;
     position: relative;
-    bottom: 11rem;
+    top: 1rem;
   }
 
   .gradient_top {
@@ -66,20 +85,40 @@
   }
 
   .text-item {
-    bottom: 7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    bottom: 1em;
   }
 
   .hero-title {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 800;
     line-height: 1em;
     color: rgb(255, 255, 255);
   }
 
-  .btn {
-    width: 110px;
-    height: 35px;
+  .email-input {
+    width: 250px;
+    height: 40px;
+    background-color: rgba(50, 52, 52, 0.491);
+    border: 1.3px solid rgb(196, 196, 196);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 2em;
+    left: 3em;
     font-size: 15px;
+    font-weight: 500;
+  }
+
+  .btn {
+    width: 90px;
+    height: 45px;
+    font-size: 15px;
+    position: relative;
+    top: 5em;
+    left: -8em;
   }
 
   .intro {
@@ -102,20 +141,36 @@
   }
 
   .text-item {
-    bottom: 5em;
+    top: 1em;
   }
 
   .hero-title {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 900;
     line-height: 1em;
     color: rgb(255, 247, 247);
   }
 
-  .btn {
-    width: 120px;
-    height: 40px;
+  .email-input {
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 2em;
+    left: 1em;
     font-size: 15px;
+    font-weight: 500;
+  }
+
+  .btn {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    position: relative;
+    left: 1.5em;
+    top: 1.7em;
+    font-weight: 800;
   }
 
   .intro {
